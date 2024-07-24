@@ -5,6 +5,8 @@ import './App.css';
 import Experience from './components/Experience/Experience';
 import Works from './components/Works/Works';
 import Portfolio from './components/Portfolio/Portfolio';
+
+import Certificate from './components/Certificate/Certificate';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { useContext } from 'react';
@@ -26,7 +28,7 @@ function App() {
       <Experience />
       <Works />
       <Portfolio />
-
+      <Certificate />
       <Contact />
       <Footer />
     </div>

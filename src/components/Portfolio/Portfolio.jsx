@@ -7,6 +7,7 @@ import tv from '../../img/tv.png';
 import MERN from '../../img/MERN.png';
 import news from '../../img/news.png';
 import smarthome from '../../img/smarthome.png';
+import Cartoon from '../../img/Cartoon.png';
 
 import Ecommerce from '../../img/ecommerce.png';
 
@@ -35,13 +36,20 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
-          <a href="https://mohitasrivastava-makes-great-sites.netlify.app">
+          <a href="https://github.com/mohitasrivastava/myawesomecart.git">
             <img src={Github} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={MERN} alt="" />
-          <a href="https://mohitasrivastava-makes-great-sites.netlify.app">
+          <a href="https://github.com/mohitasrivastava/MERN-BLOG.git">
+            <img src={Github} alt="" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={Cartoon} alt="" />
+          <a href="https://rickmorty-cartoon.netlify.app/">
             <img src={Github} alt="" />
           </a>
         </SwiperSlide>
@@ -53,7 +61,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={news} alt="" />
-          <a href="https://mohitasrivastava-makes-great-sites.netlify.app">
+          <a href="https://github.com/mohitasrivastava/NewsReading-Website.git">
             <img src={Github} alt="" />
           </a>
         </SwiperSlide>

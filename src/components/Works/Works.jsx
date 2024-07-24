@@ -38,16 +38,16 @@ const Works = () => {
           </Link> */}
           <div className="exp-year">
             <div className="exp">
-              <h3>2021-2022</h3>
-              <h3> Frontend Engineer</h3>
+              <h3>2022-2024/ Full-Stack </h3>
+              <h3> Shapoorji Pallonji Finance</h3>
+            </div>
+            <div className="exp">
+              <h3>2021-2022/ UIDeveloper</h3>
+              <h3> Capgemini</h3>
             </div>
             <div className="exp">
               <h3>2020-2020</h3>
               <h3> Telecom Engineer</h3>
-            </div>
-            <div className="exp">
-              <h3>2019-2019</h3>
-              <h3> INtern Embedded System</h3>
             </div>
           </div>
 

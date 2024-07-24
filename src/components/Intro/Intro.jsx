@@ -11,6 +11,7 @@ import FloatinDiv from '../FloatingDiv/FloatingDiv';
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
 import Instagram from '../../img/instagram.png';
+import Facebook from '../../img/Facebook.png';
 import { themeContext } from '../../Context';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
@@ -44,6 +45,8 @@ const Intro = () => {
                     1000,
                     'Python Developer',
                     1000,
+                    'Finance Enthusiastic',
+                    1000,
                   ]}
                 />
               </h1>
@@ -56,16 +59,17 @@ const Intro = () => {
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">Consult Me</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
           <img src={Github} alt="" />
+
           <a href="https://www.linkedin.com/in/mohita-srivastava-aa4a07160">
             <img src={LinkedIn} alt="" />
           </a>
 
-          <a href="https://instagram.com/i_am_mohita?igshid=YmMyMTA2M2Y=">
+          <a href="https://www.instagram.com/mesmerizing_mohita">
             <img src={Instagram} alt="" />
           </a>
         </div>

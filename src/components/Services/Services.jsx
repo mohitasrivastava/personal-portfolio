@@ -6,7 +6,8 @@ import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import { themeContext } from '../../Context';
 import { motion } from 'framer-motion';
-import MohitaCV from './MohitaCV.pdf';
+// import MohitaCV from './MohitaCV.pdf';
+import Mohita from './Mohita.pdf';
 
 const Services = () => {
   // context
@@ -29,13 +30,18 @@ const Services = () => {
         <spane>
           My career objective is to work enthusiastically with devotion.
           <br />
-          Dedicated web developer using HTML, CSS, JS, React, NodeJs, Python,
-          Django. <br />
-          Proactive individual and can work in the field of Embedded system,
+          Experienced Software Developer Specializing in Financial Technology
+          Solutions
           <br />
-          Web Development, Full Stack Developer
+          Proactive individual and Dedicated web developer/Full Stack Developer
+          <br />
+          ****Engineer by profession****
+          <br />
+          ****Entrepreneur by heart****
+          <br />
+          **Business developer by mind***
         </spane>
-        <a href={MohitaCV} download>
+        <a href={Mohita} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
@@ -50,8 +56,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={'Design'}
-            detail={'Figma, Spline, Three.js, Html, Css, SASS, Bootstrap'}
+            heading={'Frontend'}
+            detail={'HTML, CSS, Javascript, Reactjs, Figma, Spline, SASS, ES6'}
           />
         </motion.div>
         {/* second card */}
@@ -62,10 +68,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={'Developer'}
-            detail={
-              'Html, Css, JavaScript, React, Nodejs, Express, Python, Django'
-            }
+            heading={'Backend'}
+            detail={'Nodejs, ExpressJS, Python, Django, MongoDB, PSQL,'}
           />
         </motion.div>
         {/* 3rd */}
@@ -76,8 +80,8 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={'Embedded System'}
-            detail={'Atmega16, Sensors, GSM, Bluetooth'}
+            heading={'Miscellaneous'}
+            detail={'AWS, LLM, Atmega16, Sensors, GSM, Prompt Engineering'}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>

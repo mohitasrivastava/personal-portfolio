@@ -9,6 +9,7 @@ const Contact = () => {
   const [done, setDone] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log('Iam clicked');
 
     emailjs
       .sendForm(
