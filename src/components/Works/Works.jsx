@@ -30,7 +30,7 @@ const Works = () => {
             <br />
             Passionate about implementing and launching new projects.
             <br />
-            Ability to translate business requirements into technical solutions.
+            Ability to translate business requirements into technical solution.
             <br />
           </spane>
           {/* <Link to="contact" smooth={true} spy={true}>
