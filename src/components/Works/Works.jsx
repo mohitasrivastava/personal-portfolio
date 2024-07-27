@@ -24,7 +24,7 @@ const Works = () => {
             Skills and Experience
           </span>
           <span>Brands & Clients</span>
-          <spane>
+          <span>
             Strong in design and integration with intuitive problem-solving
             skills.
             <br />
@@ -32,13 +32,14 @@ const Works = () => {
             <br />
             Ability to translate business requirements into technical solution.
             <br />
-          </spane>
+          </span>
+
           {/* <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link> */}
           <div className="exp-year">
             <div className="exp">
-              <h3>2022-2024/ Full-Stack </h3>
+              <h1>2022-2024/ Full-Stack </h1>
               <h3> Shapoorji Pallonji Finance</h3>
             </div>
             <div className="exp">
@@ -50,7 +51,6 @@ const Works = () => {
               <h3> Telecom Engineer</h3>
             </div>
           </div>
-
           <div
             className="blur s-blur1"
             style={{ background: '#ABF1FF94' }}
